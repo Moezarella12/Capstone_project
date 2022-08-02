@@ -1,10 +1,10 @@
   applications:
-  - name: djangoapp
+  - name: ahmed
     routes:
       - route: moeibmbestcarsfulll.au-syd.cf.appdomain.cloud 
     memory: 128M
     buildpack: python_buildpack
-  - name: djangoapp-nginx
+  - name: ahmed-nginx
     routes:
       - route: moeibmbestcarsfulll.au-syd.cf.appdomain.cloud/static
     memory: 128M
