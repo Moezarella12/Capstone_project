@@ -27,7 +27,7 @@ DEBUG = True
 
 APPEND_SLASH = True
 
-ALLOWED_HOSTS = ["moeibmbestcarsfulll.au-syd.mybluemix.net ","localhost"]
+ALLOWED_HOSTS = ["moeibmbestcarsfulll.au-syd.cf.appdomain.cloud","localhost"]
 
 
 # Application definition

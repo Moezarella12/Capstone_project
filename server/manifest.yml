@@ -1,11 +1,11 @@
   applications:
   - name: djangoapp
     routes:
-      - route: moeibmbestcarsfulll.au-syd.mybluemix.net  
+      - route: moeibmbestcarsfulll.au-syd.cf.appdomain.cloud 
     memory: 128M
     buildpack: python_buildpack
   - name: djangoapp-nginx
     routes:
-      - route: moeibmbestcarsfulll.au-syd.mybluemix.net/static
+      - route: moeibmbestcarsfulll.au-syd.cf.appdomain.cloud/static
     memory: 128M
     buildpack: staticfile_buildpack
