@@ -27,7 +27,7 @@ DEBUG = True
 
 APPEND_SLASH = True
 
-ALLOWED_HOSTS = ["ibmCapstone.us-south.cf.appdomain.cloud","localhost","localhost:8000"]
+ALLOWED_HOSTS = ["ibmCapstone.apic.us-east.mybluemix.net","localhost","localhost:8000"]
 
 
 # Application definition
