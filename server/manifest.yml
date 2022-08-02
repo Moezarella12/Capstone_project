@@ -1,11 +1,11 @@
   applications:
   - name: ahmed
     routes:
-      - route: ibmCapstone.us-south.cf.appdomain.cloud
+      - route: ibmCapstone.us-east.cf.appdomain.cloud
     memory: 128M
     buildpack: python_buildpack
   - name: ahmed-nginx
     routes:
-      - route: ibmCapstone.us-south.cf.appdomain.cloud/static
+      - route: ibmCapstone.us-east.cf.appdomain.cloud/static
     memory: 128M
     buildpack: staticfile_buildpack
