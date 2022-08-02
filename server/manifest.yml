@@ -1,11 +1,11 @@
   applications:
   - name: ahmed
     routes:
-      - route: moeibmbestcarsfulll.au-syd.cf.appdomain.cloud 
+      - route: ahmed.au-syd.cf.appdomain.cloud 
     memory: 128M
     buildpack: python_buildpack
   - name: ahmed-nginx
     routes:
-      - route: moeibmbestcarsfulll.au-syd.cf.appdomain.cloud/static
+      - route: ahmed.au-syd.cf.appdomain.cloud/static
     memory: 128M
     buildpack: staticfile_buildpack

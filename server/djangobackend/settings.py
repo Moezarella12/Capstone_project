@@ -27,7 +27,7 @@ DEBUG = True
 
 APPEND_SLASH = True
 
-ALLOWED_HOSTS = ["moeibmbestcarsfulll.au-syd.cf.appdomain.cloud","localhost","localhost:8000"]
+ALLOWED_HOSTS = ["ahmed.au-syd.cf.appdomain.cloud","localhost","localhost:8000"]
 
 
 # Application definition
