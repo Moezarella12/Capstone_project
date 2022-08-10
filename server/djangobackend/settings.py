@@ -28,9 +28,9 @@ DEBUG = True
 APPEND_SLASH = True
 
 <<<<<<< HEAD
-ALLOWED_HOSTS = ["ibmCapstone.us-east.cf.appdomain.cloud","localhost","localhost:8000"]
+ALLOWED_HOSTS = ["djangoApp.us-east.cf.appdomain.cloud","localhost","localhost:8000"]
 =======
-ALLOWED_HOSTS = ["ibmCapstone.apic.us-east.mybluemix.net","localhost","localhost:8000"]
+ALLOWED_HOSTS = ["djangoApp.us-east.cf.appdomain.cloud","localhost","localhost:8000"]
 >>>>>>> 52ba00f1f99213cb27eb3d8129fb796ab38ea83f
 
 

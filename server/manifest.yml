@@ -1,11 +1,11 @@
   applications:
-  - name: ahmed
+  - name: djangoApp
     routes:
-      - route: ibmCapstone.us-east.cf.appdomain.cloud
+      - route: djangoApp.us-east.cf.appdomain.cloud
     memory: 128M
     buildpack: python_buildpack
-  - name: ahmed-nginx
+  - name: djangoApp-nginx
     routes:
-      - route: ibmCapstone.us-east.cf.appdomain.cloud/static
+      - route: djangoApp.us-east.cf.appdomain.cloud
     memory: 128M
     buildpack: staticfile_buildpack
