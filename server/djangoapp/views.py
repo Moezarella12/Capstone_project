@@ -94,29 +94,7 @@ def get_dealerships(request):
         # Return a list of dealer short name
         return render(request, 'djangoapp/index.html', context)
 
-def get_dealers_from_cf(url, **kwargs):
-    results = []
-    # Call get_request with a URL parameter
-    json_result = get_request(url)
-    if json_result:
-        # Get the row list in JSON as dealers
-        dealers = json_result["entries"]
-        # For each dealer object
-        for dealer_doc in dealers:
-            # Create a CarDealer object with values in `doc` object
-            dealer_obj = CarDealer(
-                address=dealer_doc["address"],
-                city=dealer_doc["city"],
-                full_name=dealer_doc["full_name"],
-                id=dealer_doc["id"],
-                lat=dealer_doc["lat"],
-                long=dealer_doc["long"],
-                short_name=dealer_doc["short_name"],
-                st=dealer_doc["st"],
-                zip=dealer_doc["zip"],
-            )
-            results.append(dealer_obj)
-    return results
+
 
 def get_dealer_details(request, dealer_id):
     context={}
